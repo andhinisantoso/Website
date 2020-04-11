@@ -1,0 +1,75 @@
+html {
+    position: relative;
+}
+
+.jumbotron {
+    background-color: #9575CD;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 - 100px;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 540px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 720px;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 960px;
+        max-width: 100%;
+    }
+}
+
+.jumbotron h1,
+.jumbotron p {
+    color: white;
+}
+
+.aboutus {
+    margin-bottom: 30px;
+}
+
+.hr {
+    width: 100%;
+    border-top: 1px solid #F4F4F4;
+}
+
+.history {
+    margin-bottom: 30px;
+}
+
+.corporate {
+    margin-bottom: 50px;
+    height: 850px;
+}
+
+@media (min-width:) footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #D1C4E9;
+    padding-top: 20px;
+}
+
+@media (min-width: 576px) {
+    .footer {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        min-height: 250px;
+    }
+}
